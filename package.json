@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaspernj/convert-locale-yml-to-json.git"
+    "url": "git+https://github.com/kaspernj/convert-yml-to-json.git"
   },
   "keywords": [
     "convert",
@@ -24,7 +24,10 @@
   "author": "kasper@diestoeckels.de",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kaspernj/convert-locale-yml-to-json/issues"
+    "url": "https://github.com/kaspernj/convert-yml-to-json/issues"
   },
-  "homepage": "https://github.com/kaspernj/convert-locale-yml-to-json#readme"
+  "homepage": "https://github.com/kaspernj/convert-yml-to-json#readme",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
 }

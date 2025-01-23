@@ -2,7 +2,7 @@ import fs from "fs/promises"
 import path from "path"
 import yaml from "js-yaml"
 
-export default class ConvertLocaleYmlToJson {
+export default class ConvertYmlToJson {
   constructor({path, verbose, ...restProps}) {
     const restPropsKeys = Object.keys(restProps)
 
@@ -14,7 +14,7 @@ export default class ConvertLocaleYmlToJson {
     this.verbose = verbose
   }
 
-  async scan() {
+  async execute() {
     await this.scanPath(this.path)
   }
 
