@@ -1,0 +1,30 @@
+{
+  "bin": {
+    "convert-yml-to-json": "bin/convert-yml-to-json.js"
+  },
+  "name": "convert-yml-to-json",
+  "version": "1.0.0",
+  "description": "Convert YAML files to JSON.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bin/convert-yml-to-json.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaspernj/convert-locale-yml-to-json.git"
+  },
+  "keywords": [
+    "convert",
+    "yml",
+    "yaml",
+    "json"
+  ],
+  "author": "kasper@diestoeckels.de",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaspernj/convert-locale-yml-to-json/issues"
+  },
+  "homepage": "https://github.com/kaspernj/convert-locale-yml-to-json#readme"
+}
